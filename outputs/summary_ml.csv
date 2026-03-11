@@ -1,0 +1,9 @@
+Rank,Feature Set,R^2,R^2 std,RMSE,RMSE std
+1,+ Road Class + GMM,0.7931,0.0432,7661.5,1071.7
+2,+ Road Class + HDBSCAN,0.7852,0.0376,7824.6,1035.4
+3,+ Road Class + K-Means,0.7847,0.0415,7829.8,1130.7
+4,+ Road Class,0.7811,0.0427,7897.9,1189.1
+5,+ K-Means clusters,0.7127,0.0857,8989.9,1689.7
+6,+ HDBSCAN clusters,0.711,0.0901,9003.8,1725.1
+7,Baseline (tabular only),0.7089,0.088,9027.4,1591.9
+8,+ GMM clusters,0.7031,0.1051,9071.9,1818.6

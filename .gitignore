@@ -1,0 +1,21 @@
+# Claude Code internal files
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.env
+
+# Results (generated — re-run scripts to reproduce)
+results/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
